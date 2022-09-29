@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    height: 8%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.644);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: cursive;
+}
+#logo{
+    height: 100%;
+    width: 10%;
+    background-color:black;
+}
+#mus{
+    width: 8%;
+    height: 100%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    display: flex;
+    height: 92%;
+    width: 100%;
+    background-color:black;
+    
+}
+#a{
+    height: 100%;
+    width: calc(100%/3);
+    color: white;
+    background: linear-gradient(rgba(255, 119, 119, 0.829), black);
+    
+}
+#b{
+    height: 100%;
+    width: calc(100%/3);
+    background-image: url('https://w0.peakpx.com/wallpaper/440/206/HD-wallpaper-black-background-car-cars-vehicles.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#c{
+    height: 100%;
+    width: calc(100%/3);
+    color: white;
+    background: linear-gradient(rgba(120, 120, 255, 0.623),black);
+}
+#txt{
+    position: absolute;
+    left: 269px;
+    top: 110px;
+    width: 40%;
+    height: 40px;
+    background-color:transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-weight: lighter;
+}
+.m1{
+    height: 40%;
+    width: calc(100%/3);
+    background-color:transparent;
+    position: absolute;
+    bottom: 100px;
+}
+video{
+    height: 100%;
+    width: 100%;
+}
+h4:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    
+}
